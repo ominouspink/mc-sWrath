@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "sophs-wrath",
+	"version": "${version}",
+	"name": "Sophs Wrath",
+	"description": "The RPG game soph's wrath inside minecraft!",
+	"authors": [
+		"Ominouspink",
+		"Legoraft"
+	],
+	"contact": {
+		"homepage": "https://github.com/ominouspink/mc-sWrath/tree/main",
+		"issues": "https://github.com/ominouspink/mc-sWrath/issues"
+	},
+	"license": "LGPL-2.1",
+	"icon": "assets/sophs-wrath/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sophswrath.SophsWrath"
+		],
+		"client": [
+			"com.sophswrath.SophsWrathClient"
+		]
+	},
+	"mixins": [
+		"sophs-wrath.mixins.json",
+		{
+			"config": "sophs-wrath.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
