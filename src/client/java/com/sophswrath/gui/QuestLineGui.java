@@ -15,10 +15,12 @@ public class QuestLineGui extends LightweightGuiDescription {
         root.setSize(252, 140);
         root.setInsets(Insets.ROOT_PANEL);
 
-        root.setBackgroundPainter(BackgroundPainter.createNinePatch(new Identifier("minecraft:textures/block/dirt.png")));
-        root.getBackgroundPainter().paintBackground(new MatrixStack(), 0, 0, root);
-
         root.validate(this);
+    }
+
+    @Override
+    public void addPainters() {
+        getRootPanel().setBackgroundPainter(BackgroundPainter.createNinePatch(new Identifier("minecraft:textures/block/dirt.png")));
     }
 
 }
