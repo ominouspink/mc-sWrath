@@ -4,8 +4,6 @@ import io.github.cottonmc.cotton.gui.client.BackgroundPainter;
 import io.github.cottonmc.cotton.gui.client.LightweightGuiDescription;
 import io.github.cottonmc.cotton.gui.widget.*;
 import io.github.cottonmc.cotton.gui.widget.data.Insets;
-import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.util.Identifier;
 
 public class QuestLineGui extends LightweightGuiDescription {
 
@@ -20,7 +18,7 @@ public class QuestLineGui extends LightweightGuiDescription {
 
     @Override
     public void addPainters() {
-        getRootPanel().setBackgroundPainter(BackgroundPainter.createNinePatch(new Identifier("minecraft:textures/block/dirt.png")));
+        getRootPanel().setBackgroundPainter(BackgroundPainter.VANILLA);
     }
 
 }
