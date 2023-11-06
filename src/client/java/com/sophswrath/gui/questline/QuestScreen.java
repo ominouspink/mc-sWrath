@@ -28,7 +28,7 @@ public class QuestScreen extends Screen {
     }
 
     public void renderBackground(DrawContext context, int x, int y) {
-        Identifier backgroundTexture = new Identifier("minecraft:textures/block/dirt.png");
+        Identifier backgroundTexture = new Identifier("textures/block/dirt.png");
         context.drawGuiTexture(backgroundTexture, x,  y, 248, 136);
     }
 }
