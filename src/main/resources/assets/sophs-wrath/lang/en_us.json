@@ -1,3 +1,7 @@
 {
-  "quests.title": "Questline"
+  "quests.global.description": "These are the global quests to complete",
+  "quests.global.title": "Global quests",
+
+  "quests.global.example.description": "Example quest to complete",
+  "quests.global.example.title": "Example quest"
 }

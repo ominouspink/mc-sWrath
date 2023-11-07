@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/dirt.png",
+    "description": {
+      "translate": "quests.global.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "quests.global.title"
+    }
+  },
+  "sends_telemetry_event": false
+}

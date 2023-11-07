@@ -1,0 +1,29 @@
+{
+  "parent": "sophs-wrath:quests/root",
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "quests.global.example.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "quests.global.example.title"
+    }
+  },
+  "requirements": [
+    [
+      "example"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
