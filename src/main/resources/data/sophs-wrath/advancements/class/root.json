@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/gray_concrete.png",
+    "description": {
+      "translate": "quests.class.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "quests.class.title"
+    }
+  },
+  "sends_telemetry_event": false
+}
